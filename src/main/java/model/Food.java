@@ -13,6 +13,7 @@ public abstract class Food implements Discountable {
         this.isVegetarian = isVegetarian;
     }
 
+
     public int getDiscount() {
         return Discount.DEFAULT;
     }
